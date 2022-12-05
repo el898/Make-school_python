@@ -1,0 +1,24 @@
+print("Check the most suitable activity for your weather")
+print("----" * 10)
+print("")
+weather = input("is it sunny,foggy or rainy ? : ")
+print("")
+if weather == "sunny":
+  print("Let's go to the park!")
+  print(" ")
+elif weather == "foggy" :
+  print ("Let's go see a movie.")
+elif  weather == "rainy":
+  print ("Let's read a book indoors.")
+else :
+  print ("Cooking is good in any weather!")
+
+len("weather")
+
+
+def temperature(tempf):
+  #this function checks temperature
+  if tempf > 50:
+    return("It's hot!")
+  else:
+    return("Brr!")
